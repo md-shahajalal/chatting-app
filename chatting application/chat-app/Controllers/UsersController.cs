@@ -1,22 +1,23 @@
 ﻿using chat_app.Data;
 using chat_app.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace chat_app.Controllers
 {
-    [ApiController]
-    [Route("api/[controller]")]
-    public class UsersController(DataContext context): ControllerBase
+    public class UsersController(DataContext context): BaseApiController
     {
+        [AllowAnonymous]
         [HttpGet] //api/users
-        public async Task<ActionResult<IEnumerable<AppUser>>> Getusers() { 
+        public async Task<ActionResult<IEnumerable<AppUser>>> GetUsers() { 
             var users =  await context.Users.ToListAsync();
             return Ok(users);
         }
 
+        [Authorize]
         [HttpGet("{id:int}")] //api/users/2
-        public async Task<ActionResult<AppUser>> Getuser(int id)
+        public async Task<ActionResult<AppUser>> GetUser(int id)
         {
             var user = await context.Users.FindAsync(id);
             if (user == null) return BadRequest("No user with given id.");

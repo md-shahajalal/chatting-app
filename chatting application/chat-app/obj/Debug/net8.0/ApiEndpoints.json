@@ -1,7 +1,59 @@
 [
   {
+    "ContainingType": "chat_app.Controllers.AccountController",
+    "Method": "Login",
+    "RelativePath": "api/Account/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "chat_app.DTOs.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "chat_app.DTOs.UserDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "chat_app.Controllers.AccountController",
+    "Method": "Login",
+    "RelativePath": "api/Account/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerDto",
+        "Type": "chat_app.DTOs.RegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "chat_app.DTOs.UserDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "chat_app.Controllers.UsersController",
-    "Method": "Getusers",
+    "Method": "GetUsers",
     "RelativePath": "api/Users",
     "HttpMethod": "GET",
     "IsController": true,
@@ -21,7 +73,7 @@
   },
   {
     "ContainingType": "chat_app.Controllers.UsersController",
-    "Method": "Getuser",
+    "Method": "GetUser",
     "RelativePath": "api/Users/{id}",
     "HttpMethod": "GET",
     "IsController": true,

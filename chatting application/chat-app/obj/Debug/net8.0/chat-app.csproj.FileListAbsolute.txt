@@ -133,4 +133,12 @@ D:\My Learning\chatting-application-dotnet-angular\backend\chatting application\
 D:\My Learning\chatting-application-dotnet-angular\backend\chatting application\chat-app\bin\Debug\net8.0\runtimes\osx-x64\native\libsqlite3.dylib
 D:\My Learning\chatting-application-dotnet-angular\backend\chatting application\chat-app\bin\Debug\net8.0\runtimes\win7-x64\native\sqlite3.dll
 D:\My Learning\chatting-application-dotnet-angular\backend\chatting application\chat-app\bin\Debug\net8.0\runtimes\win7-x86\native\sqlite3.dll
+D:\My Learning\chatting-application-dotnet-angular\backend\chatting application\chat-app\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\My Learning\chatting-application-dotnet-angular\backend\chatting application\chat-app\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\My Learning\chatting-application-dotnet-angular\backend\chatting application\chat-app\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\My Learning\chatting-application-dotnet-angular\backend\chatting application\chat-app\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\My Learning\chatting-application-dotnet-angular\backend\chatting application\chat-app\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\My Learning\chatting-application-dotnet-angular\backend\chatting application\chat-app\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\My Learning\chatting-application-dotnet-angular\backend\chatting application\chat-app\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\My Learning\chatting-application-dotnet-angular\backend\chatting application\chat-app\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 D:\My Learning\chatting-application-dotnet-angular\backend\chatting application\chat-app\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
