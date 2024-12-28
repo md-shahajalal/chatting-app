@@ -141,4 +141,6 @@ D:\My Learning\chatting-application-dotnet-angular\backend\chatting application\
 D:\My Learning\chatting-application-dotnet-angular\backend\chatting application\chat-app\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\My Learning\chatting-application-dotnet-angular\backend\chatting application\chat-app\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 D:\My Learning\chatting-application-dotnet-angular\backend\chatting application\chat-app\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\My Learning\chatting-application-dotnet-angular\backend\chatting application\chat-app\bin\Debug\net8.0\Data\UserSeedData.json
+D:\My Learning\chatting-application-dotnet-angular\backend\chatting application\chat-app\bin\Debug\net8.0\AutoMapper.dll
 D:\My Learning\chatting-application-dotnet-angular\backend\chatting application\chat-app\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

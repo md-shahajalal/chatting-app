@@ -19,22 +19,25 @@ namespace chat_app.Controllers
             if (await UserExists(registerDto.Username)) return BadRequest("User with this username already exist.");
 
             var hmac = new HMACSHA512();
+            return Ok();
 
-            var user = new AppUser
-            {
-                Username = registerDto.Username.ToLower(),
-                PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(registerDto.Password)),
-                PasswordSalt = hmac.Key
-            };
 
-            context.Users.Add(user);
 
-            await context.SaveChangesAsync();
-            return new UserDto
-            {
-                Username = registerDto.Username,
-                Token = tokenService.CreateToken(user)
-            };
+            //var user = new AppUser
+            //{
+            //    Username = registerDto.Username.ToLower(),
+            //    PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(registerDto.Password)),
+            //    PasswordSalt = hmac.Key
+            //};
+
+            //context.Users.Add(user);
+
+            //await context.SaveChangesAsync();
+            //return new UserDto
+            //{
+            //    Username = registerDto.Username,
+            //    Token = tokenService.CreateToken(user)
+            //};
         }
 
         [HttpPost("login")]
