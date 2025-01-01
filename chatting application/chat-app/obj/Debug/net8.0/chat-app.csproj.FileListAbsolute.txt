@@ -144,3 +144,5 @@ D:\My Learning\chatting-application-dotnet-angular\backend\chatting application\
 D:\My Learning\chatting-application-dotnet-angular\backend\chatting application\chat-app\bin\Debug\net8.0\Data\UserSeedData.json
 D:\My Learning\chatting-application-dotnet-angular\backend\chatting application\chat-app\bin\Debug\net8.0\AutoMapper.dll
 D:\My Learning\chatting-application-dotnet-angular\backend\chatting application\chat-app\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\My Learning\chatting-application-dotnet-angular\backend\chatting application\chat-app\bin\Debug\net8.0\CloudinaryDotNet.dll
+D:\My Learning\chatting-application-dotnet-angular\backend\chatting application\chat-app\bin\Debug\net8.0\Newtonsoft.Json.dll

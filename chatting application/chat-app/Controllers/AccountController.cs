@@ -43,7 +43,10 @@ namespace chat_app.Controllers
         [HttpPost("login")]
         public async Task<ActionResult<UserDto>> Login(LoginDto loginDto)
         {
-            var user = await context.Users.FirstOrDefaultAsync(x=>x.Username.ToLower() == loginDto.Username.ToLower());
+            var user = await context.Users
+            .Include(p => p.Photos)
+                .FirstOrDefaultAsync(x =>
+                    x.Username == loginDto.Username.ToLower());
             if (user == null) return Unauthorized("No user exist with this username.");
             var hmac = new HMACSHA512(user.PasswordSalt);
             var computedHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(loginDto.Password));
@@ -56,7 +59,8 @@ namespace chat_app.Controllers
             return new UserDto
             {
                 Username =  user.Username,
-                Token = tokenService.CreateToken(user)
+                Token = tokenService.CreateToken(user),
+                PhotoUrl = user.Photos.FirstOrDefault(x => x.IsMain)?.Url
             };
         }
 

@@ -3,8 +3,52 @@
   "WorkspaceRootPath": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|d:\\my learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|d:\\my learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|d:\\my learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\services\\photoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|solutionrelative:services\\photoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|d:\\my learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|d:\\my learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\entities\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|solutionrelative:entities\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|d:\\my learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\dtos\\photodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|solutionrelative:dtos\\photodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|d:\\my learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\extensions\\claimsprincipleextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|solutionrelative:extensions\\claimsprincipleextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|d:\\my learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|d:\\my learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\extensions\\applicationserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|solutionrelative:extensions\\applicationserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|d:\\my learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\helpers\\cloudinarysettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|solutionrelative:helpers\\cloudinarysettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|d:\\my learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\interfaces\\iphotoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|solutionrelative:interfaces\\iphotoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|d:\\my learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|solutionrelative:dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|d:\\my learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\helpers\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,20 +71,12 @@
       "RelativeMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|solutionrelative:entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|d:\\my learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\extensions\\applicationserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|solutionrelative:extensions\\applicationserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|d:\\my learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|d:\\my learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\dtos\\memberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|solutionrelative:dtos\\memberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|d:\\my learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\dtos\\photodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|solutionrelative:dtos\\photodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|d:\\my learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,20 +91,12 @@
       "RelativeMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|solutionrelative:data\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|d:\\my learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\entities\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|solutionrelative:entities\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|d:\\my learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|solutionrelative:middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|d:\\my learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\extensions\\datetimeextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|solutionrelative:extensions\\datetimeextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|d:\\my learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|d:\\my learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -107,10 +135,6 @@
       "RelativeMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|solutionrelative:interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|d:\\my learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|d:\\my learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\data\\migrations\\20241225073355_appuserupdated.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|solutionrelative:data\\migrations\\20241225073355_appuserupdated.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -125,10 +149,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|d:\\my learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|solutionrelative:dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|d:\\my learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|solutionrelative:dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{185E9774-68B1-43A5-BEE9-8D0A1BE01E1C}|chat-app.csproj|d:\\my learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\data\\migrations\\20241216091159_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -146,32 +166,150 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-01T03:29:06.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MemberUpdateDto.cs",
-              "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\DTOs\\MemberUpdateDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\MemberUpdateDto.cs",
-              "ToolTip": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\DTOs\\MemberUpdateDto.cs",
-              "RelativeToolTip": "DTOs\\MemberUpdateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Title": "PhotoService.cs",
+              "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Services\\PhotoService.cs",
+              "RelativeDocumentMoniker": "Services\\PhotoService.cs",
+              "ToolTip": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Services\\PhotoService.cs",
+              "RelativeToolTip": "Services\\PhotoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T17:20:34.743Z",
+              "WhenOpened": "2025-01-01T02:44:24.308Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "MemberDto.cs",
-              "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\DTOs\\MemberDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\MemberDto.cs",
-              "ToolTip": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\DTOs\\MemberDto.cs",
-              "RelativeToolTip": "DTOs\\MemberDto.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAA5wA4AAAAvAAAAAAAAAA==",
+              "Title": "ApplicationServiceExtensions.cs",
+              "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Extensions\\ApplicationServiceExtensions.cs",
+              "RelativeDocumentMoniker": "Extensions\\ApplicationServiceExtensions.cs",
+              "ToolTip": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Extensions\\ApplicationServiceExtensions.cs",
+              "RelativeToolTip": "Extensions\\ApplicationServiceExtensions.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBwAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T06:37:27.949Z"
+              "WhenOpened": "2024-12-25T09:19:19.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwEYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T12:44:15.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PhotoDto.cs",
+              "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\DTOs\\PhotoDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\PhotoDto.cs",
+              "ToolTip": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\DTOs\\PhotoDto.cs",
+              "RelativeToolTip": "DTOs\\PhotoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T06:37:39.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-14T10:01:41.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClaimsPrincipleExtensions.cs",
+              "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Extensions\\ClaimsPrincipleExtensions.cs",
+              "RelativeDocumentMoniker": "Extensions\\ClaimsPrincipleExtensions.cs",
+              "ToolTip": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Extensions\\ClaimsPrincipleExtensions.cs",
+              "RelativeToolTip": "Extensions\\ClaimsPrincipleExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T02:54:27.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Photo.cs",
+              "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Entities\\Photo.cs",
+              "RelativeDocumentMoniker": "Entities\\Photo.cs",
+              "ToolTip": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Entities\\Photo.cs",
+              "RelativeToolTip": "Entities\\Photo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T05:58:19.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CloudinarySettings.cs",
+              "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Helpers\\CloudinarySettings.cs",
+              "RelativeDocumentMoniker": "Helpers\\CloudinarySettings.cs",
+              "ToolTip": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Helpers\\CloudinarySettings.cs",
+              "RelativeToolTip": "Helpers\\CloudinarySettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T02:45:55.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IPhotoService.cs",
+              "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Interfaces\\IPhotoService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IPhotoService.cs",
+              "ToolTip": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Interfaces\\IPhotoService.cs",
+              "RelativeToolTip": "Interfaces\\IPhotoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T02:43:08.605Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwDsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T17:13:29.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -184,19 +322,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ApplicationServiceExtensions.cs",
-              "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Extensions\\ApplicationServiceExtensions.cs",
-              "RelativeDocumentMoniker": "Extensions\\ApplicationServiceExtensions.cs",
-              "ToolTip": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Extensions\\ApplicationServiceExtensions.cs",
-              "RelativeToolTip": "Extensions\\ApplicationServiceExtensions.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBIAAAANAAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "MemberDto.cs",
+              "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\DTOs\\MemberDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\MemberDto.cs",
+              "ToolTip": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\DTOs\\MemberDto.cs",
+              "RelativeToolTip": "DTOs\\MemberDto.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA3wA4AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T09:19:19.685Z"
+              "WhenOpened": "2024-12-28T06:37:27.949Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "AutoMapperProfiles.cs",
               "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Helpers\\AutoMapperProfiles.cs",
               "RelativeDocumentMoniker": "Helpers\\AutoMapperProfiles.cs",
@@ -209,82 +348,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
-              "ToolTip": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "Controllers\\UsersController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAzwCAAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\DTOs\\UserDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\UserDto.cs",
+              "ToolTip": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\DTOs\\UserDto.cs",
+              "RelativeToolTip": "DTOs\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T12:44:15.208Z",
+              "WhenOpened": "2024-12-22T17:09:33.118Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PhotoDto.cs",
-              "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\DTOs\\PhotoDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\PhotoDto.cs",
-              "ToolTip": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\DTOs\\PhotoDto.cs",
-              "RelativeToolTip": "DTOs\\PhotoDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "MemberUpdateDto.cs",
+              "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\DTOs\\MemberUpdateDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\MemberUpdateDto.cs",
+              "ToolTip": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\DTOs\\MemberUpdateDto.cs",
+              "RelativeToolTip": "DTOs\\MemberUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T06:37:39.822Z"
+              "WhenOpened": "2024-12-29T17:20:34.743Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 16,
               "Title": "AppUser.cs",
               "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Entities\\AppUser.cs",
               "RelativeDocumentMoniker": "Entities\\AppUser.cs",
               "ToolTip": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Entities\\AppUser.cs",
               "RelativeToolTip": "Entities\\AppUser.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA7wBYAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA5wBYAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T03:43:39.957Z"
+              "WhenOpened": "2024-12-16T03:43:39.957Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 14,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Data\\UserRepository.cs",
               "RelativeDocumentMoniker": "Data\\UserRepository.cs",
               "ToolTip": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Data\\UserRepository.cs",
               "RelativeToolTip": "Data\\UserRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-28T07:17:02.09Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 19,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\IUserRepository.cs",
               "ToolTip": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Interfaces\\IUserRepository.cs",
               "RelativeToolTip": "Interfaces\\IUserRepository.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAArwAwAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAIA8wAwAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T07:16:02.835Z"
+              "WhenOpened": "2024-12-28T07:16:02.835Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 15,
               "Title": "UserSeedData.json",
               "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Data\\UserSeedData.json",
               "RelativeDocumentMoniker": "Data\\UserSeedData.json",
               "ToolTip": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Data\\UserSeedData.json",
               "RelativeToolTip": "Data\\UserSeedData.json",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAD8AAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAABRwD8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-12-28T06:00:04.054Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 20,
               "Title": "20241228070521_UpdatedUserEntity.cs",
               "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Data\\Migrations\\20241228070521_UpdatedUserEntity.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20241228070521_UpdatedUserEntity.cs",
@@ -292,11 +434,12 @@
               "RelativeToolTip": "Data\\Migrations\\20241228070521_UpdatedUserEntity.cs",
               "ViewState": "AgIAAE8AAAAAAAAAAAAQwF8AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T07:05:31.064Z"
+              "WhenOpened": "2024-12-28T07:05:31.064Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 21,
               "Title": "Seed.cs",
               "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Data\\Seed.cs",
               "RelativeDocumentMoniker": "Data\\Seed.cs",
@@ -304,11 +447,12 @@
               "RelativeToolTip": "Data\\Seed.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T06:09:44.786Z"
+              "WhenOpened": "2024-12-28T06:09:44.786Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 24,
               "Title": "BaseApiController.cs",
               "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Controllers\\BaseApiController.cs",
               "RelativeDocumentMoniker": "Controllers\\BaseApiController.cs",
@@ -316,24 +460,25 @@
               "RelativeToolTip": "Controllers\\BaseApiController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T17:22:13.604Z"
+              "WhenOpened": "2024-12-22T17:22:13.604Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 22,
               "Title": "ExceptionMiddleware.cs",
               "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Middleware\\ExceptionMiddleware.cs",
               "RelativeDocumentMoniker": "Middleware\\ExceptionMiddleware.cs",
               "ToolTip": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Middleware\\ExceptionMiddleware.cs",
               "RelativeToolTip": "Middleware\\ExceptionMiddleware.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAIBJwA4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-26T03:43:25.307Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 23,
               "Title": "DateTimeExtensions.cs",
               "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Extensions\\DateTimeExtensions.cs",
               "RelativeDocumentMoniker": "Extensions\\DateTimeExtensions.cs",
@@ -341,47 +486,25 @@
               "RelativeToolTip": "Extensions\\DateTimeExtensions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T06:38:44.788Z"
+              "WhenOpened": "2024-12-28T06:38:44.788Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Photo.cs",
-              "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Entities\\Photo.cs",
-              "RelativeDocumentMoniker": "Entities\\Photo.cs",
-              "ToolTip": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Entities\\Photo.cs",
-              "RelativeToolTip": "Entities\\Photo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T05:58:19.302Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T17:13:29.964Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 26,
               "Title": "BuggyController.cs",
               "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Controllers\\BuggyController.cs",
               "RelativeDocumentMoniker": "Controllers\\BuggyController.cs",
               "ToolTip": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Controllers\\BuggyController.cs",
               "RelativeToolTip": "Controllers\\BuggyController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T11:59:47.107Z"
+              "WhenOpened": "2024-12-25T11:59:47.107Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 28,
               "Title": "RegisterDto.cs",
               "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\DTOs\\RegisterDto.cs",
               "RelativeDocumentMoniker": "DTOs\\RegisterDto.cs",
@@ -389,23 +512,25 @@
               "RelativeToolTip": "DTOs\\RegisterDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T17:07:46.626Z"
+              "WhenOpened": "2024-12-22T17:07:46.626Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 25,
               "Title": "chat-app.csproj",
               "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\chat-app.csproj",
               "RelativeDocumentMoniker": "chat-app.csproj",
               "ToolTip": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\chat-app.csproj",
               "RelativeToolTip": "chat-app.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-22T17:05:48.926Z"
+              "WhenOpened": "2024-12-22T17:05:48.926Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 27,
               "Title": "ApiException.cs",
               "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Errors\\ApiException.cs",
               "RelativeDocumentMoniker": "Errors\\ApiException.cs",
@@ -413,11 +538,12 @@
               "RelativeToolTip": "Errors\\ApiException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T12:06:55.427Z"
+              "WhenOpened": "2024-12-25T12:06:55.427Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 29,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -425,11 +551,12 @@
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-14T09:48:45.505Z"
+              "WhenOpened": "2024-12-14T09:48:45.505Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 30,
               "Title": "IdentityServiceExtensions.cs",
               "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Extensions\\IdentityServiceExtensions.cs",
               "RelativeDocumentMoniker": "Extensions\\IdentityServiceExtensions.cs",
@@ -437,11 +564,12 @@
               "RelativeToolTip": "Extensions\\IdentityServiceExtensions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T09:10:21.161Z"
+              "WhenOpened": "2024-12-25T09:10:21.161Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 34,
               "Title": "DataContextModelSnapshot.cs",
               "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Data\\Migrations\\DataContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\DataContextModelSnapshot.cs",
@@ -449,11 +577,12 @@
               "RelativeToolTip": "Data\\Migrations\\DataContextModelSnapshot.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T09:12:10.246Z"
+              "WhenOpened": "2024-12-16T09:12:10.246Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 32,
               "Title": "ITokenService.cs",
               "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Interfaces\\ITokenService.cs",
               "RelativeDocumentMoniker": "Interfaces\\ITokenService.cs",
@@ -461,23 +590,12 @@
               "RelativeToolTip": "Interfaces\\ITokenService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T03:18:09.169Z"
+              "WhenOpened": "2024-12-25T03:18:09.169Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\appsettings.Development.json",
-              "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-14T10:01:41.294Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 31,
               "Title": "TokenService.cs",
               "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Services\\TokenService.cs",
               "RelativeDocumentMoniker": "Services\\TokenService.cs",
@@ -485,11 +603,12 @@
               "RelativeToolTip": "Services\\TokenService.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAUwBoAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T03:20:22.997Z"
+              "WhenOpened": "2024-12-25T03:20:22.997Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 35,
               "Title": "DataContext.cs",
               "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Data\\DataContext.cs",
               "RelativeDocumentMoniker": "Data\\DataContext.cs",
@@ -497,11 +616,12 @@
               "RelativeToolTip": "Data\\DataContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T06:11:28.645Z"
+              "WhenOpened": "2024-12-16T06:11:28.645Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 33,
               "Title": "20241225073355_appUserUpdated.Designer.cs",
               "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Data\\Migrations\\20241225073355_appUserUpdated.Designer.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20241225073355_appUserUpdated.Designer.cs",
@@ -509,11 +629,12 @@
               "RelativeToolTip": "Data\\Migrations\\20241225073355_appUserUpdated.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T07:34:01.287Z"
+              "WhenOpened": "2024-12-25T07:34:01.287Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 36,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\DTOs\\LoginDto.cs",
               "RelativeDocumentMoniker": "DTOs\\LoginDto.cs",
@@ -521,23 +642,12 @@
               "RelativeToolTip": "DTOs\\LoginDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T17:06:21.748Z"
+              "WhenOpened": "2024-12-22T17:06:21.748Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "UserDto.cs",
-              "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\DTOs\\UserDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\UserDto.cs",
-              "ToolTip": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\DTOs\\UserDto.cs",
-              "RelativeToolTip": "DTOs\\UserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T17:09:33.118Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 37,
               "Title": "20241216091159_InitialMigration.cs",
               "DocumentMoniker": "D:\\My Learning\\chatting-application-dotnet-angular\\backend\\chatting application\\chat-app\\Data\\Migrations\\20241216091159_InitialMigration.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20241216091159_InitialMigration.cs",
@@ -545,7 +655,8 @@
               "RelativeToolTip": "Data\\Migrations\\20241216091159_InitialMigration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T09:12:14.523Z"
+              "WhenOpened": "2024-12-16T09:12:14.523Z",
+              "EditorCaption": ""
             }
           ]
         }

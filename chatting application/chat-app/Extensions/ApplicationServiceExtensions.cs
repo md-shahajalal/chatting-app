@@ -1,4 +1,5 @@
 ﻿using chat_app.Data;
+using chat_app.Helpers;
 using chat_app.Interfaces;
 using chat_app.Services;
 using Microsoft.EntityFrameworkCore;
@@ -24,6 +25,8 @@ namespace chat_app.Extensions
             services.AddScoped<ITokenService, TokenService>();
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+            services.AddScoped<IPhotoService, PhotoService>();
+            services.Configure<CloudinarySettings>(config.GetSection("CloudinarySettings"));
             return services;
         }
     }
