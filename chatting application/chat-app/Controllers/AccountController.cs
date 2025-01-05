@@ -1,4 +1,5 @@
-﻿using chat_app.Data;
+﻿using AutoMapper;
+using chat_app.Data;
 using chat_app.DTOs;
 using chat_app.Entities;
 using chat_app.Interfaces;
@@ -10,34 +11,33 @@ using System.Text;
 
 namespace chat_app.Controllers
 {
-    public class AccountController(DataContext context, ITokenService tokenService) : BaseApiController
+    public class AccountController(DataContext context, ITokenService tokenService, IMapper mapper) : BaseApiController
     {
         [HttpPost("register")]
-        public async Task<ActionResult<UserDto>> Login(RegisterDto registerDto)
+        public async Task<ActionResult<UserDto>> Register(RegisterDto registerDto)
         {
             
             if (await UserExists(registerDto.Username)) return BadRequest("User with this username already exist.");
 
-            var hmac = new HMACSHA512();
-            return Ok();
+            using var hmac = new HMACSHA512();
+
+            var user = mapper.Map<AppUser>(registerDto);
 
 
 
-            //var user = new AppUser
-            //{
-            //    Username = registerDto.Username.ToLower(),
-            //    PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(registerDto.Password)),
-            //    PasswordSalt = hmac.Key
-            //};
+            user.Username = registerDto.Username.ToLower();
+            user.PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(registerDto.Password));
+            user.PasswordSalt = hmac.Key;
 
-            //context.Users.Add(user);
-
-            //await context.SaveChangesAsync();
-            //return new UserDto
-            //{
-            //    Username = registerDto.Username,
-            //    Token = tokenService.CreateToken(user)
-            //};
+            context.Users.Add(user);
+            await context.SaveChangesAsync();
+            return new UserDto
+            {
+                Username = user.Username,
+                Token = tokenService.CreateToken(user),
+                Gender = user.Gender,
+                KnownAs = user.KnownAs
+            };
         }
 
         [HttpPost("login")]
@@ -59,7 +59,9 @@ namespace chat_app.Controllers
             return new UserDto
             {
                 Username =  user.Username,
+                KnownAs = user.KnownAs,
                 Token = tokenService.CreateToken(user),
+                Gender = user.Gender,
                 PhotoUrl = user.Photos.FirstOrDefault(x => x.IsMain)?.Url
             };
         }

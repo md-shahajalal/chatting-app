@@ -1,5 +1,6 @@
 ﻿using chat_app.DTOs;
 using chat_app.Entities;
+using chat_app.Helpers;
 
 namespace chat_app.Interfaces
 {
@@ -10,7 +11,7 @@ namespace chat_app.Interfaces
         Task<IEnumerable<AppUser>> GetUsersAsync();
         Task<AppUser?> GetUserByIdAsync(int id);
         Task<AppUser?> GetUserByUsernameAsync(string username);
-        Task<IEnumerable<MemberDto>> GetMembersAsync();
+        Task<PagedList<MemberDto>> GetMembersAsync(UserParams userParams);
         Task<MemberDto?> GetMemberAsync(string username);
     }
 }

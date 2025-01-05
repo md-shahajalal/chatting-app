@@ -3,6 +3,7 @@ using chat_app.Data;
 using chat_app.DTOs;
 using chat_app.Entities;
 using chat_app.Extensions;
+using chat_app.Helpers;
 using chat_app.Interfaces;
 using chat_app.Services;
 using Microsoft.AspNetCore.Authorization;
@@ -16,14 +17,17 @@ namespace chat_app.Controllers
     {
         [AllowAnonymous]
         [HttpGet] //api/users
-        public async Task<ActionResult<IEnumerable<MemberDto>>> GetUsers() {
-            var users = await userRepository.GetMembersAsync();
+        public async Task<ActionResult<PagedList<MemberDto>>> GetUsers([FromQuery] UserParams userParams) {
+            userParams.CurrentUsername = User.GetUsername();
+            var users = await userRepository.GetMembersAsync(userParams);
+            Response.AddPaginationHeader(users);
+
             return Ok(users);
         }
 
         [Authorize]
         [HttpGet("{username}")] //api/users/2
-        public async Task<ActionResult<AppUser>> GetUser(string username)
+        public async Task<ActionResult<MemberDto>> GetUser(string username)
         {
             var user = await userRepository.GetMemberAsync(username);
             if (user == null) return NotFound();
@@ -53,6 +57,7 @@ namespace chat_app.Controllers
                 Url = result.SecureUrl.AbsoluteUri,
                 PublicId = result.PublicId
             };
+            if (user.Photos.Count == 0) photo.IsMain = true;
             user.Photos.Add(photo);
             if (await userRepository.SaveAllAsync())
                 return CreatedAtAction(nameof(GetUser),
