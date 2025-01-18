@@ -101,6 +101,59 @@
         }
       }
     },
+    "/api/Admin/users-with-roles": {
+      "get": {
+        "tags": [
+          "Admin"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Admin/edit-roles/{username}": {
+      "post": {
+        "tags": [
+          "Admin"
+        ],
+        "parameters": [
+          {
+            "name": "username",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "roles",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Admin/photos-to-moderate": {
+      "get": {
+        "tags": [
+          "Admin"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Buggy/auth": {
       "get": {
         "tags": [
@@ -838,13 +891,41 @@
   },
   "components": {
     "schemas": {
+      "AppRole": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "normalizedName": {
+            "type": "string",
+            "nullable": true
+          },
+          "concurrencyStamp": {
+            "type": "string",
+            "nullable": true
+          },
+          "userRoles": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/AppUserRole"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "AppUser": {
         "required": [
           "city",
           "country",
           "gender",
-          "knownAs",
-          "username"
+          "knownAs"
         ],
         "type": "object",
         "properties": {
@@ -852,19 +933,58 @@
             "type": "integer",
             "format": "int32"
           },
-          "username": {
+          "userName": {
             "type": "string",
             "nullable": true
+          },
+          "normalizedUserName": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "normalizedEmail": {
+            "type": "string",
+            "nullable": true
+          },
+          "emailConfirmed": {
+            "type": "boolean"
           },
           "passwordHash": {
             "type": "string",
-            "format": "byte",
             "nullable": true
           },
-          "passwordSalt": {
+          "securityStamp": {
             "type": "string",
-            "format": "byte",
             "nullable": true
+          },
+          "concurrencyStamp": {
+            "type": "string",
+            "nullable": true
+          },
+          "phoneNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "phoneNumberConfirmed": {
+            "type": "boolean"
+          },
+          "twoFactorEnabled": {
+            "type": "boolean"
+          },
+          "lockoutEnd": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "lockoutEnabled": {
+            "type": "boolean"
+          },
+          "accessFailedCount": {
+            "type": "integer",
+            "format": "int32"
           },
           "dateOfBirth": {
             "type": "string",
@@ -940,6 +1060,33 @@
               "$ref": "#/components/schemas/Message"
             },
             "nullable": true
+          },
+          "userRoles": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/AppUserRole"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AppUserRole": {
+        "type": "object",
+        "properties": {
+          "userId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "roleId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "user": {
+            "$ref": "#/components/schemas/AppUser"
+          },
+          "role": {
+            "$ref": "#/components/schemas/AppRole"
           }
         },
         "additionalProperties": false

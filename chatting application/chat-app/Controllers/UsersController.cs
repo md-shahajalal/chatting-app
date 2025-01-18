@@ -61,7 +61,7 @@ namespace chat_app.Controllers
             user.Photos.Add(photo);
             if (await userRepository.SaveAllAsync())
                 return CreatedAtAction(nameof(GetUser),
-                    new { username = user.Username }, mapper.Map<PhotoDto>(photo));
+                    new { username = user.UserName }, mapper.Map<PhotoDto>(photo));
             return BadRequest("Problem adding photo");
         }
         [HttpPut("set-main-photo/{photoId:int}")]

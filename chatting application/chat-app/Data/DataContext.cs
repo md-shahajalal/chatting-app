@@ -1,16 +1,32 @@
 ﻿using chat_app.Entities;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace chat_app.Data
 {
-    public class DataContext(DbContextOptions<DataContext> options) : DbContext(options)
+    public class DataContext(DbContextOptions<DataContext> options) : IdentityDbContext<AppUser, AppRole, int,
+    IdentityUserClaim<int>, AppUserRole, IdentityUserLogin<int>, IdentityRoleClaim<int>,
+    IdentityUserToken<int>>(options)
     {
-        public DbSet<AppUser> Users { get; set; }
         public DbSet<UserLike> Likes { get; set; }
         public DbSet<Message> Messages { get; set; }
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
+
+            builder.Entity<AppUser>()
+               .HasMany(ur => ur.UserRoles)
+               .WithOne(u => u.User)
+               .HasForeignKey(ur => ur.UserId)
+               .IsRequired();
+
+            builder.Entity<AppRole>()
+                .HasMany(ur => ur.UserRoles)
+                .WithOne(u => u.Role)
+                .HasForeignKey(ur => ur.RoleId)
+                .IsRequired();
+
             builder.Entity<UserLike>()
                 .HasKey(k => new { k.SourceUserId, k.TargetUserId });
             builder.Entity<UserLike>()
@@ -25,9 +41,9 @@ namespace chat_app.Data
                 .OnDelete(DeleteBehavior.Cascade);
 
             builder.Entity<Message>()
-            .HasOne(x => x.Recipient)
-            .WithMany(x => x.MessagesReceived)
-            .OnDelete(DeleteBehavior.Restrict);
+                .HasOne(x => x.Recipient)
+                .WithMany(x => x.MessagesReceived)
+                .OnDelete(DeleteBehavior.Restrict);
 
             builder.Entity<Message>()
                 .HasOne(x => x.Sender)

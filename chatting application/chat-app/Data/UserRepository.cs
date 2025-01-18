@@ -14,14 +14,14 @@ namespace chat_app.Data
         public async Task<MemberDto?> GetMemberAsync(string username)
         {
             return await context.Users
-                .Where(x => x.Username == username)
+                .Where(x => x.UserName == username)
                 .ProjectTo<MemberDto>(mapper.ConfigurationProvider)
                 .SingleOrDefaultAsync();
         }
         public async Task<PagedList<MemberDto>> GetMembersAsync(UserParams userParams)
         {
             var query = context.Users.AsQueryable();
-            query = query.Where(x => x.Username != userParams.CurrentUsername);
+            query = query.Where(x => x.UserName != userParams.CurrentUsername);
             if (userParams.Gender != null)
             {
                 query = query.Where(x => x.Gender == userParams.Gender);
@@ -45,7 +45,7 @@ namespace chat_app.Data
         {
             return await context.Users
                 .Include(x => x.Photos)
-                .SingleOrDefaultAsync(x => x.Username == username);
+                .SingleOrDefaultAsync(x => x.UserName == username);
         }
         public async Task<IEnumerable<AppUser>> GetUsersAsync()
         {

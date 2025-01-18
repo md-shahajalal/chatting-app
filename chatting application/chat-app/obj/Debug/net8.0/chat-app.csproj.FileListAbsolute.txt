@@ -145,4 +145,10 @@ D:\My Learning\chatting-application-dotnet-angular\backend\chatting application\
 D:\My Learning\chatting-application-dotnet-angular\backend\chatting application\chat-app\bin\Debug\net8.0\AutoMapper.dll
 D:\My Learning\chatting-application-dotnet-angular\backend\chatting application\chat-app\bin\Debug\net8.0\CloudinaryDotNet.dll
 D:\My Learning\chatting-application-dotnet-angular\backend\chatting application\chat-app\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\My Learning\chatting-application-dotnet-angular\backend\chatting application\chat-app\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\My Learning\chatting-application-dotnet-angular\backend\chatting application\chat-app\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\My Learning\chatting-application-dotnet-angular\backend\chatting application\chat-app\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\My Learning\chatting-application-dotnet-angular\backend\chatting application\chat-app\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\My Learning\chatting-application-dotnet-angular\backend\chatting application\chat-app\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\My Learning\chatting-application-dotnet-angular\backend\chatting application\chat-app\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 D:\My Learning\chatting-application-dotnet-angular\backend\chatting application\chat-app\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

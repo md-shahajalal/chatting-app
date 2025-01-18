@@ -29,11 +29,11 @@ namespace chat_app.Data
                 .AsQueryable();
             query = messageParams.Container switch
             {
-                "Inbox" => query.Where(x => x.Recipient.Username == messageParams.Username
+                "Inbox" => query.Where(x => x.Recipient.UserName == messageParams.Username
                     && x.RecipientDeleted == false),
-                "Outbox" => query.Where(x => x.Sender.Username == messageParams.Username
+                "Outbox" => query.Where(x => x.Sender.UserName == messageParams.Username
                     && x.SenderDeleted == false),
-                _ => query.Where(x => x.Recipient.Username == messageParams.Username && x.DateRead == null
+                _ => query.Where(x => x.Recipient.UserName == messageParams.Username && x.DateRead == null
                     && x.RecipientDeleted == false)
             };
             var messages = query.ProjectTo<MessageDto>(mapper.ConfigurationProvider);
